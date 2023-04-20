@@ -97,7 +97,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     left: 30%;
-    bottom: 80px;
+    bottom: 85px;
     transform: translateX(-50%);
     animation: car 1s linear infinite;
 
@@ -132,11 +132,11 @@ body {
 
 .backwheel {
     position: absolute;
-    left: -225px;
+    left: -230px;
 }
 .frontwheel {
     position: absolute;
-    left: 25px;
+    left: 20px;
 }
 @keyframes wheel {
     
@@ -169,5 +169,5 @@ body {
     z-index: 3;
     position: absolute;
     top: 57%;
-    left:55%;
+    left:60%;
 }
