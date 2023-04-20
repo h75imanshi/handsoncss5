@@ -136,7 +136,7 @@ body {
 }
 .frontwheel {
     position: absolute;
-    left: 20px;
+    left: 15px;
 }
 @keyframes wheel {
     
@@ -169,5 +169,5 @@ body {
     z-index: 3;
     position: absolute;
     top: 57%;
-    left:60%;
+    left:50%;
 }
