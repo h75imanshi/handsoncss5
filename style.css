@@ -1,0 +1,176 @@
+/* first page code*/
+body
+{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    color:black;
+}
+.box
+{
+    display:flex;
+    justify-content: center;
+}
+.row1
+{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(122, 107, 146);;
+    border: 2px solid black;
+    animation: simple1 3s infinite alternate;
+}
+.num
+{
+    padding-top: 80px;
+}
+@keyframes simple1
+{
+    0%{
+        transform: skew(-30deg);
+    }
+    100%
+    {
+        transform: skew(30deg);
+    }
+}
+.box1
+{
+    display:flex;
+    justify-content: center;
+}
+
+.row2
+{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(141, 135, 151);;
+    border: 2px solid black;
+    animation: simple2 3s infinite alternate-reverse;
+}
+.num
+{
+    padding-top: 80px;
+}
+@keyframes simple2
+{
+    0%{
+        transform: skewx(-30deg);
+    }
+    100%
+    {
+        transform: skewy(30deg);
+    }
+}
+
+.box2
+{
+    display:flex;
+    justify-content: center;
+}
+
+.row3
+{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(128, 52, 252);;
+    border: 2px solid black;
+    animation: simple3 2s infinite normal;
+}
+.num
+{
+    padding-top: 80px;
+}
+@keyframes simple3
+{
+    0%{
+        transform: rotate(90deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+.box3
+{
+    display:flex;
+    justify-content: center;
+}
+
+.row4
+{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(56, 11, 129);;
+    border: 2px solid black;
+    animation: simple4 5s infinite normal;
+}
+.num
+{
+    padding-top: 80px;
+}
+@keyframes simple4
+{
+    0%{
+        transform:scale(1,1);
+    }
+    100%
+    {
+        transform: scale(1,0.5);
+    }
+}
+
+.row5
+{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:brown;
+    border: 2px solid black;
+    animation: simple5 5s infinite normal;
+    color: brown;
+}
+@keyframes simple5
+{
+    0%{
+        transform:scale(1,1);
+    }
+    100%
+    {
+        transform:scale(0.5,1);
+    }
+}
+.row6
+{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    border: 2px solid black;
+    animation: simple6 2s infinite alternate;
+}
+@keyframes simple6
+{
+    0%{
+        transform: rotate(90deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+a
+{
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    left: 450px;
+}
+

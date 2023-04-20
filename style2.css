@@ -1,0 +1,173 @@
+body {
+    border: 5px solid;
+    border-color: white green white orangered;
+    height: 400px;
+    margin: 0px;
+    display: block;
+
+}
+
+.sky {
+    position: relative;
+    background-image: url(./sky.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    display: block;
+
+
+}
+
+.text {
+    text-align: center;
+
+}
+
+.happy {
+    justify-content: center;
+    position: absolute;
+    color: black;
+    left: 350px;
+    background-color: rgb(250, 54, 5);
+    overflow-x: hidden;
+
+}
+
+.ind {
+    text-align: center;
+    color: black;
+    background-color: white;
+    position: absolute;
+    left: 480px;
+
+}
+
+.day {
+    text-align: center;
+    color: black;
+    background-color: green;
+    position: absolute;
+    left: 750px;
+
+
+}
+
+.city {
+    background-image: url(./city.png);
+    height: 250px;
+    position: absolute;
+    width: 500%;
+    z-index: 1;
+    bottom: 175px;
+    left: 0;
+    right: 0;
+    display: block;
+    animation: city 20s linear infinite;
+}
+
+@keyframes city {
+    100% {
+        transform: translateX(-1400px);
+    }
+}
+
+.road {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    top: 480px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: simple1 5s linear infinite;
+}
+
+@keyframes simple1 {
+    
+    100% {
+        transform: translateX(-3400px);
+    }
+}
+
+
+.car {
+    position: absolute;
+    z-index: 2;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 30%;
+    bottom: 80px;
+    transform: translateX(-50%);
+    animation: car 1s linear infinite;
+
+}
+
+@keyframes car {
+    0% {
+        transform: translateY(1px);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+
+    100% {
+        transform: translateY(1px);
+    }
+}
+
+.wheel {
+    position: absolute;
+    left: 50%;
+    bottom: 178px;
+    z-index: 2;
+    transform: translateX(-50%);
+    
+}
+.wheel img
+{
+    animation: wheel 1s linear infinite;
+}
+
+.backwheel {
+    position: absolute;
+    left: -225px;
+}
+.frontwheel {
+    position: absolute;
+    left: 25px;
+}
+@keyframes wheel {
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.sun {
+     position: absolute;
+    z-index: 3;
+    animation: simple 5s infinite linear;
+    background-repeat: no-repeat;
+    left: 1150px;
+    top: 70px;
+    background-color: transparent;
+    
+}
+
+@keyframes simple {
+    100% {
+        transform: translateX(-400px);
+    }
+}
+
+.flag {
+    background-size: contain;
+    background-position: center;
+    z-index: 3;
+    position: absolute;
+    top: 57%;
+    left:55%;
+}

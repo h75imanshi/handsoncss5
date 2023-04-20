@@ -1,0 +1,122 @@
+body
+{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+    color:black;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+}
+.box1
+{
+    margin: 20px;
+   width: 100px;
+   height: 100px;
+   background-color:green;
+   transition: width 2s, height 5s;
+}
+
+.box1:hover
+{
+    width: 400px;
+    
+}
+.box2
+{  
+    margin: 20px;
+   width:100px;
+   height: 100px;
+   background-color:green;
+   transition: all  5s;
+}
+.box2:hover
+{
+    width: 300px;
+    height: 300px;
+    transition: all;
+}
+.box3
+{
+    margin: 20px;
+   width:100px;
+   height: 100px;
+   background-color:green;
+   transition:linear  width 5s;
+   cursor: pointer;
+}
+
+.box3:hover
+{
+    width: 400px;
+    transition-timing-function: linear;
+}
+.box4{
+   width:100px;
+   height: 100px;
+   background-color:green;
+   transition:ease  width 2s;
+   margin: 20px;
+}
+
+.box4:hover
+{
+    width: 400px;
+    transition-timing-function: ease;
+}
+.box5{
+   width:100px;
+   height: 100px;
+   background-color:green;
+   transition:ease-in  width 2s;
+   cursor: pointer;
+   margin: 20px;
+}
+
+.box5:hover
+{
+    width: 400px;
+    transition-timing-function: ease-in;
+}
+.box6{
+   width:100px;
+   height: 100px;
+   background-color:green;
+   transition: ease-out width 5s;
+   cursor: pointer;
+   margin: 20px;
+}
+
+.box6:hover
+{
+    width: 400px;
+    transition-timing-function: ease-out;
+}
+
+.box7{
+    margin: 20px;
+   width:100px;
+   height: 100px;
+   background-color:green;
+   transition:ease-in-out width 2s;
+   cursor: pointer;
+}
+
+.box7:hover
+{
+    width: 400px;
+    transition-timing-function: ease-in-out;
+}
+
+a
+{
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    left: 620px;
+}
